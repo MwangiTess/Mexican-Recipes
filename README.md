@@ -2,7 +2,7 @@
 
 Welcome to the **Mexican Street Food Recipes** repository! This project is a collection of delicious and authentic Mexican street food recipes that you can easily recreate at home. Whether you're a fan of sweet treats like **Churros** or savory delights like **Sopes**, this repository has something for everyone.
 
-## Recipes Included
+### Recipes Included
 
 1. **Bionicos**: A refreshing and healthy Mexican fruit salad topped with yogurt, granola, and sweetened condensed milk.
 2. **Churros**: Crispy, golden fried dough sticks coated in cinnamon sugar, perfect for dipping in chocolate sauce.
