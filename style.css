@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    /*  -If we use width 1200px we force the container to always be 1200px wide no matter the screen size.
+        - On smaller screen size like phone, it will cause horizontal scrolling because the content will overflow.
+        -If we use max-width: the container will be upto the specifies px but not exceeding it, shrink to fit smaller screens, stay centered and make it responsive because width is 100%.
+        - Min-width: it means the container can never be narrower than 1200px even on small screens
+    */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* -------------------------------------- Components ------------------------------------------ */
+h1{
+    font-size: 48px;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    
+}
+p{
+    font-size: 18px;
+    color: black;
+    /* font-weight: 900; */
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+
+}
+
+
+
+/* --------------------------------------- Header--------------------------------------------*/
+.header{
+    background-color: #1F2937;
+}
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.header .logo{
+    max-width: 30%;
+}
+.header ul{
+    display: flex;
+    gap: 18px;
+}
+.header .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.header .title p{
+    color: #f9faf8;
+}
+.header .image{
+   width: 100%;
+   height: 250px;
+   overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* --------------------------------------- Main --------------------------------------------*/
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* --------------------------------------- Recipes --------------------------------------------*/
+
+.recipe{
+    background-color: #f9faf8;
+}
+.recipe .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipe  h2{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.recipe .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 48px;
+}
+.recipe .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.recipe .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} 
+
+.recipe .card p {
+    padding: 24px 12px 12px 12px;
+    flex-grow: 1;  /* makes the paragraph area take up remaining space if needed */
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --------------------------------------- About/Feature --------------------------------------------*/
+
+.about{
+    background-color: #e5e7eb;
+    height: 00px;
+    padding: 20px 40px;
+}
+
+/* --------------------------------------- Call to Action --------------------------------------------*/
+.cta{
+    background-color: purple;
+    flex: 1;
+}
+
+/* --------------------------------------- Footer --------------------------------------------*/
+.footer{
+    height: 60px;
+    background-color: #1F2937;
+}

@@ -16,3 +16,12 @@ Welcome to the **Mexican Street Food Recipes** repository! This project is a col
 
 
 Enjoy cooking and exploring the flavors of Mexico!
+
+
+Experience the vibrant flavors of Tacos Al Pastor, a beloved Mexican dish featuring marinated pork, grilled to perfection, and served in warm tortillas. Topped with fresh pineapple, onions, and cilantro, these tacos are a fiesta for your taste buds
+
+Savor the perfect blend of seasoned beef, melted cheese, and fresh toppings in this easy beef burrito recipe. Packed with flavor and wrapped in a warm tortilla, it's a satisfying meal that’s great for lunch or dinner. Add a side of crispy fries for the ultimate comfort food combo. Make this recipe tonight and enjoy a delicious, homemade burrito in no time!
+
+ delightful Mexican food dishes that are sure to warm your soul on any chilly day. From rich, savory stews to mouthwatering tacos, each recipe is a hug in a bowl. Don't miss out on the comforting flavors and aromas that make these dishes perfect for sharing with family and friends. Whether you're a seasoned chef or a kitchen novice, these soul-soothing recipes will bring joy to your table. Click to discover all 18 dishes and add some warmth to your mealtime
+
+ Mexican Birria is a savory, rich stew traditionally made with goat meat, but often prepared with beef or lamb. It's renowned for its robust, deeply spiced, slightly spicy broth and tender meat. Often served during festive occasions, it can be enjoyed as a stew or taco filling.
